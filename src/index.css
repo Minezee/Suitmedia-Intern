@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+html {
   font-family: 'Roboto', 'Arial';
 }
 
@@ -12,4 +12,11 @@ html{
   background-size: cover;
   background-attachment: fixed;
   clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
+}
+
+.card-title {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }

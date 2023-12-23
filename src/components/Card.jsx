@@ -16,7 +16,7 @@ const Card = ({ id, img, title, date }) => {
             <img src={img} alt={title} loading='lazy' className='w-full rounded-t-lg aspect-[13/9]' />
             <div className='flex flex-col px-6 py-8'>
                 <p className='text-sm font-bold text-gray-400'>{formatDate(date).toUpperCase()}</p>
-                <h2 className='font-bold text-xl'>{title}</h2>
+                <h2 className='font-bold text-xl card-title'>{title}</h2>
             </div>
         </div>
     )
